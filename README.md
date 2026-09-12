@@ -22,7 +22,10 @@
 - [AI Agent Frameworks](#ai-agent-frameworks)
 - [Conversational Commerce](#conversational-commerce)
 - [Customer Support Automation](#customer-support-automation)
+- [Voice AI](#voice-ai)
 - [Shopify & Storefront AI](#shopify--storefront-ai)
+- [Open-Source Commerce Platforms](#open-source-commerce-platforms)
+- [Product Media & Imagery](#product-media--imagery)
 - [Content & Marketing](#content--marketing)
 - [Sales & Lead Generation](#sales--lead-generation)
 - [Sourcing & Supply Chain](#sourcing--supply-chain)
@@ -40,6 +43,8 @@
 - 🧩🛠️ [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — Lightweight framework for single- and multi-agent apps; a simple starting point.
 - 🧩🛠️ [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Microsoft's consolidated successor to AutoGen + Semantic Kernel, for .NET and Python teams.
 - 🧩🛠️ [Dify](https://github.com/langgenius/dify) — Open-source LLM app platform with a visual builder for agents and workflows; self-hostable.
+- 🧩🛠️ [Flowise](https://github.com/FlowiseAI/Flowise) — Drag-and-drop UI to build LLM apps and agents visually; great for non-heavy-code teams.
+- 🧩🛠️ [n8n](https://github.com/n8n-io/n8n) — Workflow automation with native AI/LLM nodes; wire agents into hundreds of business apps.
 - 🛠️ [Specialist Swarm](https://github.com/Manish567Kumar/specialist-swarm) — A coordinator agent that fans an RFP out to specialist sub-agents and returns a finished branded proposal.
 
 ## Conversational Commerce
@@ -59,7 +64,16 @@
 - 💰 [Intercom (Fin)](https://www.intercom.com/fin) — AI agent that resolves support conversations across channels.
 - 💰 [Tidio](https://www.tidio.com/) — Chat + AI support widget popular with small stores.
 - 💰 [Re:amaze](https://www.reamaze.com/) — Helpdesk + chat with AI replies, aimed at SMB stores.
-- 🛠️ [Chatwoot](https://github.com/chatwoot/chatwoot) — Self-hosted alternative when you want to own your support data.
+- 🛠️ [Basjoo](https://github.com/haoyiyin/basjoo) — Open-source AI support platform: RAG knowledge base, multi-provider LLM agents, embeddable chat widget (FastAPI + Next.js + pgvector).
+
+## Voice AI
+
+*Give an agent a phone number — for support lines, order status, or outbound calls.*
+
+- 🧩🛠️ [Vocode](https://github.com/vocodedev/vocode-core) — Open-source library for building real-time voice LLM agents over phone, Zoom, and more.
+- 🧩🛠️ [Bolna](https://github.com/bolna-ai/bolna) — End-to-end open-source framework for production voice agents (ASR + LLM + TTS over websockets).
+- 🛠️ [Patter](https://github.com/PatterAI/Patter) — MIT-licensed voice-AI SDK; give an agent a phone number in a few lines (Twilio, Telnyx, Plivo).
+- 🛠️ [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) — Phone-calling voice agent built fully on open-source models (Pipecat + BentoML + Twilio).
 
 ## Shopify & Storefront AI
 
@@ -67,6 +81,24 @@
 - 🛠️ [Shopify Liquid Cookbook](https://github.com/Manish567Kumar/shopify-liquid-cookbook) — Copy-paste Liquid theme customizations, no apps required.
 - 💰 [Describely](https://describely.ai/) — Bulk AI product descriptions, titles, and metadata for large catalogs.
 - 💰 [Octane AI](https://www.octaneai.com/) — Quizzes and AI-driven personalization for Shopify stores.
+
+## Open-Source Commerce Platforms
+
+*Own your stack — headless/composable engines you can build AI directly into.*
+
+- 🛠️ [Medusa](https://github.com/medusajs/medusa) — Flexible open-source commerce platform (Node.js) with a customization framework for agents and developers.
+- 🛠️ [Saleor](https://github.com/saleor/saleor) — High-performance, GraphQL-native, headless commerce API (Python/Django).
+- 🛠️ [Vendure](https://github.com/vendure-ecommerce/vendure) — Headless commerce framework built with TypeScript, NestJS, and GraphQL.
+- 🛠️ [Svelte Commerce](https://github.com/itswadesh/svelte-commerce) — Open-source headless storefront for Medusa, Shopify, Saleor, Vendure, and WooCommerce.
+
+## Product Media & Imagery
+
+*Turn raw product shots into clean, on-brand catalog images at scale.*
+
+- 🛠️ [rembg](https://github.com/danielgatis/rembg) — Popular open-source tool/library to remove image backgrounds; scriptable for bulk catalogs.
+- 💰 [Photoroom](https://www.photoroom.com/) — AI background removal and product-scene generation, strong at batch processing.
+- 💰 [remove.bg](https://www.remove.bg/) — Fast, accurate single-image background removal with an API.
+- 💰 [Kive](https://kive.ai/) — Re-renders products into consistent studio scenes across a whole catalog.
 
 ## Content & Marketing
 
@@ -105,7 +137,7 @@
 - 📚 [Anthropic — Managed Agents (multi-agent)](https://platform.claude.com/docs/en/managed-agents/multi-agent) — Docs for building coordinator/specialist agent systems.
 - 📚 [LangChain — AI agent frameworks guide](https://www.langchain.com/resources/ai-agent-frameworks) — Overview of the current framework landscape.
 - 📚 [Shopify — AI content creation](https://www.shopify.com/blog/ai-content-creation) — Practical guide to AI tooling for stores.
-- _Add guides, courses, and articles on AI in commerce._
+- 📚 [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — The master index of awesome lists across every topic.
 
 ## Contributing
 
