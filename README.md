@@ -28,6 +28,8 @@
 - [Product Media & Imagery](#product-media--imagery)
 - [Content & Marketing](#content--marketing)
 - [Sales & Lead Generation](#sales--lead-generation)
+- [Returns & Post-Purchase](#returns--post-purchase)
+- [Analytics & Personalization](#analytics--personalization)
 - [Sourcing & Supply Chain](#sourcing--supply-chain)
 - [Inventory & Demand Forecasting](#inventory--demand-forecasting)
 - [Learning Resources](#learning-resources)
@@ -37,100 +39,127 @@
 
 *Building blocks for autonomous and multi-agent commerce workflows.*
 
-- 🧩🛠️ [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful, graph-based orchestration for multi-step and multi-agent workflows; part of the LangChain ecosystem.
-- 🧩🛠️ [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework in Python; fast path to a "crew" of collaborating agents.
-- 🧩🛠️ [LlamaIndex](https://github.com/run-llama/llama_index) — Data framework for building agents over your own private documents and product data.
-- 🧩🛠️ [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — Lightweight framework for single- and multi-agent apps; a simple starting point.
-- 🧩🛠️ [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Microsoft's consolidated successor to AutoGen + Semantic Kernel, for .NET and Python teams.
+- 🧩🛠️ [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework in Python; a fast path to a crew of collaborating agents.
 - 🧩🛠️ [Dify](https://github.com/langgenius/dify) — Open-source LLM app platform with a visual builder for agents and workflows; self-hostable.
-- 🧩🛠️ [Flowise](https://github.com/FlowiseAI/Flowise) — Drag-and-drop UI to build LLM apps and agents visually; great for non-heavy-code teams.
+- 🧩🛠️ [Flowise](https://github.com/FlowiseAI/Flowise) — Drag-and-drop UI to build LLM apps and agents visually.
+- 🧩🛠️ [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful, graph-based orchestration for multi-step and multi-agent workflows.
+- 🧩🛠️ [LlamaIndex](https://github.com/run-llama/llama_index) — Data framework for building agents over your own private documents and product data.
+- 🧩🛠️ [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Microsoft's consolidated successor to AutoGen and Semantic Kernel, for .NET and Python teams.
 - 🧩🛠️ [n8n](https://github.com/n8n-io/n8n) — Workflow automation with native AI/LLM nodes; wire agents into hundreds of business apps.
+- 🧩🛠️ [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — Lightweight framework for single- and multi-agent apps.
 - 🛠️ [Specialist Swarm](https://github.com/Manish567Kumar/specialist-swarm) — A coordinator agent that fans an RFP out to specialist sub-agents and returns a finished branded proposal.
 
 ## Conversational Commerce
 
-*Chat & messaging automation that sells and supports.*
+*Chat and messaging automation that sells and supports.*
 
-- 🛠️ [BizBot](https://github.com/Manish567Kumar/bizbot) — Open-source WhatsApp automation for SMBs: auto-reply, bot flows, and a shared inbox (TypeScript, Express, Prisma, BullMQ).
-- 🛠️ [Chatwoot](https://github.com/chatwoot/chatwoot) — Open-source customer engagement suite; omnichannel inbox (WhatsApp, IG, web) with automation and AI add-ons.
-- 🛠️ [Typebot](https://github.com/baptisteArno/typebot.io) — Open-source conversational form/chatbot builder you can embed or run on WhatsApp.
+- 🛠️ [BizBot](https://github.com/Manish567Kumar/bizbot) — Open-source WhatsApp automation for SMBs: auto-reply, bot flows, and a shared inbox.
+- 🛠️ [Chatwoot](https://github.com/chatwoot/chatwoot) — Open-source customer engagement suite with an omnichannel inbox and AI add-ons.
 - 💰 [Manychat](https://manychat.com/) — Popular no-code chat marketing for Instagram, WhatsApp, and Messenger.
+- 🛠️ [Typebot](https://github.com/baptisteArno/typebot.io) — Open-source conversational form and chatbot builder you can embed or run on WhatsApp.
 
 ## Customer Support Automation
 
 *Agentic tools that resolve tickets end-to-end — orders, returns, WISMO — across chat, email, and messaging.*
 
+- 🛠️ [Basjoo](https://github.com/haoyiyin/basjoo) — Open-source AI support platform with a RAG knowledge base and an embeddable chat widget.
 - 💰 [Gorgias](https://www.gorgias.com/) — Ecommerce-native helpdesk with AI automation and deep Shopify order actions.
 - 💰 [Intercom (Fin)](https://www.intercom.com/fin) — AI agent that resolves support conversations across channels.
-- 💰 [Tidio](https://www.tidio.com/) — Chat + AI support widget popular with small stores.
-- 💰 [Re:amaze](https://www.reamaze.com/) — Helpdesk + chat with AI replies, aimed at SMB stores.
-- 🛠️ [Basjoo](https://github.com/haoyiyin/basjoo) — Open-source AI support platform: RAG knowledge base, multi-provider LLM agents, embeddable chat widget (FastAPI + Next.js + pgvector).
+- 💰 [Re:amaze](https://www.reamaze.com/) — Helpdesk and chat with AI replies, aimed at SMB stores.
+- 💰 [Tidio](https://www.tidio.com/) — Chat and AI support widget popular with small stores.
 
 ## Voice AI
 
 *Give an agent a phone number — for support lines, order status, or outbound calls.*
 
-- 🧩🛠️ [Vocode](https://github.com/vocodedev/vocode-core) — Open-source library for building real-time voice LLM agents over phone, Zoom, and more.
-- 🧩🛠️ [Bolna](https://github.com/bolna-ai/bolna) — End-to-end open-source framework for production voice agents (ASR + LLM + TTS over websockets).
-- 🛠️ [Patter](https://github.com/PatterAI/Patter) — MIT-licensed voice-AI SDK; give an agent a phone number in a few lines (Twilio, Telnyx, Plivo).
-- 🛠️ [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) — Phone-calling voice agent built fully on open-source models (Pipecat + BentoML + Twilio).
+- 🛠️ [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) — Phone-calling voice agent built fully on open-source models.
+- 🧩🛠️ [Bolna](https://github.com/bolna-ai/bolna) — End-to-end open-source framework for production voice agents (ASR + LLM + TTS).
+- 🛠️ [Patter](https://github.com/PatterAI/Patter) — MIT-licensed voice-AI SDK; give an agent a phone number in a few lines.
+- 🧩🛠️ [Vocode](https://github.com/vocodedev/vocode-core) — Open-source library for building real-time voice LLM agents over phone and web.
 
 ## Shopify & Storefront AI
 
-- 💰 [Shopify Magic / Sidekick](https://www.shopify.com/magic) — Shopify's built-in AI for product descriptions and store assistance.
-- 🛠️ [Shopify Liquid Cookbook](https://github.com/Manish567Kumar/shopify-liquid-cookbook) — Copy-paste Liquid theme customizations, no apps required.
+*AI built into the storefront and product catalog.*
+
 - 💰 [Describely](https://describely.ai/) — Bulk AI product descriptions, titles, and metadata for large catalogs.
 - 💰 [Octane AI](https://www.octaneai.com/) — Quizzes and AI-driven personalization for Shopify stores.
+- 🛠️ [Shopify Liquid Cookbook](https://github.com/Manish567Kumar/shopify-liquid-cookbook) — Copy-paste Liquid theme customizations, no apps required.
+- 💰 [Shopify Magic / Sidekick](https://www.shopify.com/magic) — Shopify's built-in AI for product descriptions and store assistance.
 
 ## Open-Source Commerce Platforms
 
-*Own your stack — headless/composable engines you can build AI directly into.*
+*Own your stack — headless and composable engines you can build AI directly into.*
 
 - 🛠️ [Medusa](https://github.com/medusajs/medusa) — Flexible open-source commerce platform (Node.js) with a customization framework for agents and developers.
 - 🛠️ [Saleor](https://github.com/saleor/saleor) — High-performance, GraphQL-native, headless commerce API (Python/Django).
-- 🛠️ [Vendure](https://github.com/vendure-ecommerce/vendure) — Headless commerce framework built with TypeScript, NestJS, and GraphQL.
 - 🛠️ [Svelte Commerce](https://github.com/itswadesh/svelte-commerce) — Open-source headless storefront for Medusa, Shopify, Saleor, Vendure, and WooCommerce.
+- 🛠️ [Vendure](https://github.com/vendure-ecommerce/vendure) — Headless commerce framework built with TypeScript, NestJS, and GraphQL.
 
 ## Product Media & Imagery
 
 *Turn raw product shots into clean, on-brand catalog images at scale.*
 
-- 🛠️ [rembg](https://github.com/danielgatis/rembg) — Popular open-source tool/library to remove image backgrounds; scriptable for bulk catalogs.
-- 💰 [Photoroom](https://www.photoroom.com/) — AI background removal and product-scene generation, strong at batch processing.
-- 💰 [remove.bg](https://www.remove.bg/) — Fast, accurate single-image background removal with an API.
 - 💰 [Kive](https://kive.ai/) — Re-renders products into consistent studio scenes across a whole catalog.
+- 💰 [Photoroom](https://www.photoroom.com/) — AI background removal and product-scene generation, strong at batch processing.
+- 🛠️ [rembg](https://github.com/danielgatis/rembg) — Popular open-source tool and library to remove image backgrounds; scriptable for bulk catalogs.
+- 💰 [remove.bg](https://www.remove.bg/) — Fast, accurate single-image background removal with an API.
 
 ## Content & Marketing
 
 *AI copy, creative, and campaign tooling for commerce.*
 
+- 💰 [Brevo](https://www.brevo.com/) — Budget-friendly email and SMS automation for small businesses.
+- 💰 [Copy.ai](https://www.copy.ai/) — AI copywriter for product descriptions, ads, and marketing content.
+- 💰 [Jasper](https://www.jasper.ai/) — AI content platform for marketing teams and brand-consistent copy.
+- 💰 [Klaviyo](https://www.klaviyo.com/) — Ecommerce marketing with best-in-class predictive and AI data.
 - 🛠️ [Mautic](https://github.com/mautic/mautic) — Open-source marketing automation (email, campaigns, segmentation); self-hosted.
-- 💰 [Omnisend](https://www.omnisend.com/) — Email + SMS marketing built for ecommerce, with AI assist.
-- 💰 [Klaviyo](https://www.klaviyo.com/) — Ecommerce marketing with best-in-class predictive/AI data.
-- 💰 [Brevo](https://www.brevo.com/) — Budget-friendly email + SMS automation for small businesses.
+- 💰 [Omnisend](https://www.omnisend.com/) — Email and SMS marketing built for ecommerce, with AI assist.
 
 ## Sales & Lead Generation
 
 *Agents that find, qualify, and reach out to buyers.*
 
+- 💰 [Instantly](https://instantly.ai/) — Cold-outreach platform with AI-assisted sending and deliverability tooling.
+- 🛠️ [OpenOutreach](https://github.com/eracle/OpenOutreach) — Self-hosted open-source AI lead finder that qualifies prospects and exports a CSV.
 - 🛠️ [SalesGPT](https://github.com/filip-michalsky/SalesGPT) — Context-aware AI sales agent that engages leads across voice, email, SMS, and WhatsApp.
-- 🛠️ [OpenOutreach](https://github.com/eracle/OpenOutreach) — Self-hosted open-source AI lead finder that qualifies prospects and exports a CSV for your cold-email tool.
+
+## Returns & Post-Purchase
+
+*Automate the return lifecycle — eligibility, exchanges, fraud holds, and resale.*
+
+- 💰 [AfterShip](https://www.aftership.com/) — Multi-carrier shipment tracking and returns automation.
+- 💰 [Loop Returns](https://www.loopreturns.com/) — Shopify-first, exchange-led returns automation.
+- 💰 [Narvar](https://corp.narvar.com/) — Enterprise post-purchase experience: tracking, returns, and communications.
+- 💰 [Optoro](https://www.optoro.com/) — Returns processing and resale/liquidation to recover margin.
+- 💰 [ReturnGO](https://returngo.ai/) — AI-native returns and exchanges platform with policy automation.
+
+## Analytics & Personalization
+
+*Understand behavior and tailor the storefront to each shopper.*
+
+- 🛠️ [Gorse](https://github.com/gorse-io/gorse) — Open-source recommendation engine (Go) for personalized product suggestions.
+- 💰 [Nosto](https://www.nosto.com/) — Commerce personalization and product recommendations.
+- 🛠️ [PostHog](https://github.com/PostHog/posthog) — Open-source, self-hostable product analytics, session recording, and A/B testing.
+- 💰 [Rebuy](https://www.rebuyengine.com/) — AI-powered upsell, cross-sell, and personalization for Shopify.
 
 ## Sourcing & Supply Chain
 
 *AI for supplier discovery, RFQ automation, and trade — a fast-growing frontier.*
 
-- 🛠️ [Specialist Swarm](https://github.com/Manish567Kumar/specialist-swarm) — Multi-agent RFP/proposal automation (a sourcing-adjacent pattern: coordinator + specialists).
-- _Seed this section — supplier discovery, RFQ/RFP automation, logistics agents. PRs very welcome._
+- 💰 [Fairmarkit](https://www.fairmarkit.com/) — AI-powered sourcing that automates RFQs and supplier discovery for tail spend.
+- 💰 [Keelvar](https://www.keelvar.com/) — Sourcing optimization and autonomous sourcing bots for procurement.
+- 💰 [Pactum](https://pactum.com/) — Autonomous AI negotiation with suppliers at scale.
+- 🛠️ [Specialist Swarm](https://github.com/Manish567Kumar/specialist-swarm) — Multi-agent RFP/proposal automation (coordinator + specialists).
+- 💰 [Zapro](https://zapro.ai/) — AI-driven vendor discovery and onboarding in one hub.
 
 ## Inventory & Demand Forecasting
 
-*Predict demand, automate reorders, cut stockouts and overstock.*
+*Predict demand, automate reorders, and cut stockouts and overstock.*
 
 - 🛠️ [Inventory Management](https://github.com/Manish567Kumar/inventory-management) — Factory inventory management system.
-- 💰 [Prediko](https://www.prediko.io/) — AI forecasting and Shopify-native replenishment workflows.
 - 💰 [Inventory Planner](https://www.inventory-planner.com/) — Demand forecasting and purchase-order automation for ecommerce.
 - 💰 [Monocle](https://apps.shopify.com/forecast) — ML-based reorder suggestions and PO automation for Shopify.
+- 💰 [Prediko](https://www.prediko.io/) — AI forecasting and Shopify-native replenishment workflows.
 
 ## Learning Resources
 
@@ -145,10 +174,10 @@ Contributions make this list great! Please read [CONTRIBUTING.md](CONTRIBUTING.m
 
 **Quick rules:**
 - One tool per line: `[Name](link) — one-line description.`
-- Mark it 🛠️ open source · 💰 commercial · 🧩 framework where it helps
-- Keep it genuinely useful and commerce/AI relevant
-- Alphabetical within a section where possible
-- No broken links, no pure self-promo spam
+- Mark it 🛠️ open source · 💰 commercial · 🧩 framework where it helps.
+- Keep it genuinely useful and commerce/AI relevant.
+- Alphabetical within a section where possible.
+- No broken links, no pure self-promo spam.
 
 ## License
 
