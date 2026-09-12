@@ -93,7 +93,7 @@
 - 🛠️ [Medusa](https://github.com/medusajs/medusa) — Flexible open-source commerce platform (Node.js) with a customization framework for agents and developers.
 - 🛠️ [Saleor](https://github.com/saleor/saleor) — High-performance, GraphQL-native, headless commerce API (Python/Django).
 - 🛠️ [Svelte Commerce](https://github.com/itswadesh/svelte-commerce) — Open-source headless storefront for Medusa, Shopify, Saleor, Vendure, and WooCommerce.
-- 🛠️ [Vendure](https://github.com/vendure-ecommerce/vendure) — Headless commerce framework built with TypeScript, NestJS, and GraphQL.
+- 🛠️ [Vendure](https://github.com/vendurehq/vendure) — Headless commerce framework built with TypeScript, NestJS, and GraphQL.
 
 ## Product Media & Imagery
 
